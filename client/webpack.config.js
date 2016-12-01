@@ -13,7 +13,9 @@ const config = {
     'es5-shim/es5-shim',
     'es5-shim/es5-sham',
     'babel-polyfill',
+    // Include all the directories we want to bundle here.
     './app/bundles/HelloWorld/startup/registration',
+    './app/bundles/Map/startup/registration',
   ],
 
   output: {

@@ -1,13 +1,13 @@
-# Apts
+# Apts react on rails
 
 ## Environment / gems
 
-```
-Ruby 2.3.1
-Rails 5.0.0
-Devise
-etc
-```
+- Ruby 2.3.1
+- Rails 5.0.0
+- Devise
+- [React on Rails](shakacode/react_on_rails)
+- etc
+
 
 ---
 
@@ -25,7 +25,9 @@ rails db:migrate
 rails db:seed
 ```
 
-Visit localhost:3000
+Start [react on rails](https://github.com/shakacode/react_on_rails#getting-started)
+
+
 
 ```yml
 user:
@@ -35,12 +37,3 @@ admin:
   email:    "admin@example.com"
   password: "password"
 ```
-
----
-
-## Gems / Libraries
-
-#### XML parsing
-- [Nokogiri tutorials](http://www.nokogiri.org/tutorials/parsing_an_html_xml_document.html)
-- [Nokogiri wiki](https://github.com/sparklemotion/nokogiri/wiki)
-- [Nokogiri rubydoc](http://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Document)
