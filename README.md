@@ -20,9 +20,11 @@
 ## Get started
 
 ```bash
-rails db:create
-rails db:migrate
-rails db:seed
+bundle install
+npm install
+rake db:setup
+rake db:seed
+foreman start -f Procfile.dev
 ```
 
 Start [react on rails](https://github.com/shakacode/react_on_rails#getting-started)
