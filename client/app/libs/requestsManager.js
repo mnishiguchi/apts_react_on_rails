@@ -1,7 +1,7 @@
-import request from 'axios';
-import ReactOnRails from 'react-on-rails';
+import request from 'axios'
+import ReactOnRails from 'react-on-rails'
 
-const API_URL = 'comments.json';
+const API_URL = 'comments.json'
 
 export default {
 
@@ -15,7 +15,7 @@ export default {
       method: 'GET',
       url: API_URL,
       responseType: 'json',
-    });
+    })
   },
 
   /**
@@ -31,7 +31,7 @@ export default {
       responseType: 'json',
       headers: ReactOnRails.authenticityHeaders(),
       data: entity,
-    });
+    })
   },
 
-};
+}
