@@ -1,6 +1,4 @@
-class PagesController < ApplicationController
-  before_action :set_current_identity
-  
+class PagesController < ApplicationController  
   def react
   end
 end

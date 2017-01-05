@@ -12,6 +12,9 @@ html
     = csrf_meta_tags
     /[if lt IE 9]
       script [src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"]
+      
+    link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.0/css/bulma.min.css"
+    
   body
     = render 'layouts/site_header'
 
@@ -19,7 +22,7 @@ html
       = render 'layouts/flash_message'
 
     .container
-      main= yield
+      main = yield
 
     = render 'layouts/site_footer'
     = render 'layouts/debug_box'

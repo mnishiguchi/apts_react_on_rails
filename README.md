@@ -28,14 +28,3 @@ foreman start -f Procfile.dev
 ```
 
 Start [react on rails](https://github.com/shakacode/react_on_rails#getting-started)
-
-
-
-```yml
-user:
-  email:    "user@example.com"
-  password: "password"
-admin:
-  email:    "admin@example.com"
-  password: "password"
-```
