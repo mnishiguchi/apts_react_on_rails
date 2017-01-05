@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   root to: "pages#react"
 
+  get "/*path", to: "pages#react"
 end

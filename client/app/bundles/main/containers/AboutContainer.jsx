@@ -1,8 +1,6 @@
 import React from 'react';
 
-import BaseComponent from 'libs/components/BaseComponent';
-
-export default class AboutContainer extends BaseComponent {
+export default class AboutContainer extends React.Component {
   render() {
     return (
       <div className="container">

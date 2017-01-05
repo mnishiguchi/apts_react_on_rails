@@ -28,3 +28,27 @@ foreman start -f Procfile.dev
 ```
 
 Start [react on rails](https://github.com/shakacode/react_on_rails#getting-started)
+
+---
+
+## Some useful techniques
+
+#### React wild card Redirecting
+
+```js
+import React from 'react'
+import { Route, IndexRoute, Redirect } from 'react-router'
+
+// ...
+
+const routes = (
+  <Route path="/" component={Layout}>
+    <IndexRoute component={HomeContainer} />
+    <Route path="/about" component={AboutContainer} />
+
+    <Redirect from="*" to="/" />
+  </Route>
+)
+
+export default routes
+```
